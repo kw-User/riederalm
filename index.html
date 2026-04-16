@@ -1,0 +1,504 @@
+<!DOCTYPE html><html lang="de"> <head><meta charset="UTF-8"><meta name="viewport" content="width=1440"><title>Riederalm - Good Life Resort</title><link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet"><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script><script src="parallax-tuner.js?v=2"></script><style>.channel-nav[data-astro-cid-j7pv25f6]{display:flex;justify-content:center;padding:80px 0}.channel-nav-tiles[data-astro-cid-j7pv25f6]{display:flex;gap:2px}.channel-tile[data-astro-cid-j7pv25f6]{width:200px;height:200px;background:var(--olive-300);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;cursor:pointer;transition:background .3s,transform .3s,box-shadow .3s}.channel-tile[data-astro-cid-j7pv25f6]:hover{background:var(--olive-400);transform:translateY(-4px);box-shadow:0 8px 24px #00000014}.channel-tile[data-astro-cid-j7pv25f6] img[data-astro-cid-j7pv25f6]{width:80px;height:80px;object-fit:contain}.channel-tile[data-astro-cid-j7pv25f6] span[data-astro-cid-j7pv25f6]{font-size:17px;letter-spacing:.51px;text-transform:uppercase;color:var(--olive-800)}.about[data-astro-cid-j7pv25f6]{padding:0 160px;display:flex;flex-direction:column;gap:120px}.about-block[data-astro-cid-j7pv25f6]{position:relative;min-height:600px}.about-block[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6]{max-width:440px}.about-block[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6] h3[data-astro-cid-j7pv25f6]{margin-bottom:24px}.about-block[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6] .body-lg[data-astro-cid-j7pv25f6]{color:var(--olive-600);margin-bottom:40px}.about-block-1[data-astro-cid-j7pv25f6]{height:729px}.about-block-1[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6]{position:relative;z-index:2;padding-top:120px;width:352px}.about-block-1[data-astro-cid-j7pv25f6] .img-main[data-astro-cid-j7pv25f6]{position:absolute;right:-16px;top:200px;width:373px;height:466px;object-fit:cover}.about-block-1[data-astro-cid-j7pv25f6] .img-secondary[data-astro-cid-j7pv25f6]{position:absolute;right:320px;top:600px;width:244px;height:366px;object-fit:cover}.about-block-1[data-astro-cid-j7pv25f6] .illu[data-astro-cid-j7pv25f6]{position:absolute;left:241px;bottom:60px;width:192px;height:auto;opacity:.5}.about-block-2[data-astro-cid-j7pv25f6]{height:815px}.about-block-2[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6]{position:relative;z-index:2;padding-top:120px;width:352px}.about-block-2[data-astro-cid-j7pv25f6] .img-main[data-astro-cid-j7pv25f6]{position:absolute;right:-56px;top:400px;width:544px;height:815px;object-fit:cover}.about-block-2[data-astro-cid-j7pv25f6] .img-secondary[data-astro-cid-j7pv25f6]{position:absolute;right:400px;top:320px;width:298px;height:447px;object-fit:cover}.about-block-3[data-astro-cid-j7pv25f6]{height:936px}.about-block-3[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6]{position:relative;z-index:2;padding-top:40px;width:352px}.about-block-3[data-astro-cid-j7pv25f6] .img-main[data-astro-cid-j7pv25f6]{position:absolute;right:280px;top:80px;width:393px;height:589px;object-fit:cover}.about-block-3[data-astro-cid-j7pv25f6] .img-secondary[data-astro-cid-j7pv25f6]{position:absolute;right:-52px;top:560px;width:400px;height:270px;object-fit:cover}.about-block-3[data-astro-cid-j7pv25f6] .illu[data-astro-cid-j7pv25f6]{position:absolute;left:0;bottom:0;width:335px;height:auto;opacity:.3}.about-block-4[data-astro-cid-j7pv25f6]{height:589px}.about-block-4[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6]{position:relative;z-index:2;padding-top:40px;width:352px}.about-block-4[data-astro-cid-j7pv25f6] .img-main[data-astro-cid-j7pv25f6]{position:absolute;right:220px;top:120px;width:393px;height:589px;object-fit:cover}.about-block-4[data-astro-cid-j7pv25f6] .img-secondary[data-astro-cid-j7pv25f6]{position:absolute;right:40px;top:360px;width:227px;height:340px;object-fit:cover}.about-block[data-astro-cid-j7pv25f6] .img-main[data-astro-cid-j7pv25f6],.about-block[data-astro-cid-j7pv25f6] .img-secondary[data-astro-cid-j7pv25f6]{overflow:hidden}.big-morph[data-astro-cid-j7pv25f6]{position:relative}.doortag-section[data-astro-cid-j7pv25f6]{position:relative;height:180vh;width:max(100vw,1440px);margin-left:calc((1440px - max(100vw,1440px))/2)}.doortag-sticky[data-astro-cid-j7pv25f6]{position:sticky;top:0;height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden;width:100%}.doortag-wrapper[data-astro-cid-j7pv25f6]{position:relative;width:2640px;height:320vh;max-height:4800px;display:flex;flex-direction:column;align-items:center;justify-content:center;will-change:transform;transform:scale(.25);transform-origin:center 65%}.doortag-bg-img[data-astro-cid-j7pv25f6]{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain;opacity:.3;will-change:opacity}.features-overlay[data-astro-cid-j7pv25f6]{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;z-index:10;will-change:opacity}.features-overlay[data-astro-cid-j7pv25f6].visible{opacity:1;pointer-events:all}.features-inner[data-astro-cid-j7pv25f6]{padding:80px 80px 100px;display:flex;gap:52px;width:1120px;position:relative}.features-logo[data-astro-cid-j7pv25f6]{position:absolute;bottom:10px;left:50%;transform:translate(-50%);width:58px;height:58px;opacity:.3;filter:brightness(0) invert(1)}.feature-card[data-astro-cid-j7pv25f6]{flex:1;display:flex;flex-direction:column;gap:16px;padding:16px;border-radius:32px;min-height:420px}.feature-card[data-astro-cid-j7pv25f6]:first-child{min-height:480px}.feature-card[data-astro-cid-j7pv25f6] .icon[data-astro-cid-j7pv25f6]{width:24px;height:24px;margin-bottom:8px}.feature-card[data-astro-cid-j7pv25f6] .icon[data-astro-cid-j7pv25f6] img[data-astro-cid-j7pv25f6]{width:100%;height:100%}.feature-card[data-astro-cid-j7pv25f6] h4[data-astro-cid-j7pv25f6]{color:var(--white);font-size:32px}.feature-card[data-astro-cid-j7pv25f6] p[data-astro-cid-j7pv25f6]{color:var(--olive-300);font-size:16px;line-height:1.5;margin-top:8px;margin-bottom:16px}.feature-card[data-astro-cid-j7pv25f6] .btn[data-astro-cid-j7pv25f6]{margin-top:auto;align-self:flex-start}.feature-card[data-astro-cid-j7pv25f6] .btn-link[data-astro-cid-j7pv25f6]{color:var(--olive-300);text-align:left}.quotes[data-astro-cid-j7pv25f6]{padding:80px 0 300px;position:relative;min-height:700px;width:1440px}.quote-card[data-astro-cid-j7pv25f6]{position:absolute;border-radius:32px;padding:32px;text-align:center}.quote-card-1[data-astro-cid-j7pv25f6]{width:420px;left:0;right:0;margin:0 auto;top:60px;opacity:0;transform:translateY(40px)}.quote-card-2[data-astro-cid-j7pv25f6]{width:320px;left:160px;top:150px;opacity:0;transform:translate(-80px)}.quote-card-3[data-astro-cid-j7pv25f6]{width:320px;right:160px;top:336px;opacity:0;transform:translate(80px)}.quote-text[data-astro-cid-j7pv25f6]{font-style:italic;color:var(--olive-400);margin-bottom:20px}.quote-card-1[data-astro-cid-j7pv25f6] .quote-text[data-astro-cid-j7pv25f6]{font-size:32px;line-height:1.2}.quote-card-2[data-astro-cid-j7pv25f6] .quote-text[data-astro-cid-j7pv25f6],.quote-card-3[data-astro-cid-j7pv25f6] .quote-text[data-astro-cid-j7pv25f6]{font-size:18px;line-height:1.5}.quote-deco[data-astro-cid-j7pv25f6]{position:absolute;z-index:0}.quote-deco-up[data-astro-cid-j7pv25f6]{left:480px;top:50px;width:80px;height:auto}.quote-deco-low[data-astro-cid-j7pv25f6]{right:480px;top:380px;width:80px;height:auto}.quote-author[data-astro-cid-j7pv25f6]{display:flex;flex-direction:column;align-items:center;gap:12px;margin-top:24px}.quote-avatar[data-astro-cid-j7pv25f6]{border-radius:999px;border:5px solid var(--olive-200);object-fit:cover}.quote-card-1[data-astro-cid-j7pv25f6] .quote-avatar[data-astro-cid-j7pv25f6]{width:96px;height:96px}.quote-card-2[data-astro-cid-j7pv25f6] .quote-avatar[data-astro-cid-j7pv25f6],.quote-card-3[data-astro-cid-j7pv25f6] .quote-avatar[data-astro-cid-j7pv25f6]{width:72px;height:72px}.quote-name[data-astro-cid-j7pv25f6]{font-weight:700}.quote-card-1[data-astro-cid-j7pv25f6] .quote-name[data-astro-cid-j7pv25f6]{font-size:18px}.quote-card-2[data-astro-cid-j7pv25f6] .quote-name[data-astro-cid-j7pv25f6],.quote-card-3[data-astro-cid-j7pv25f6] .quote-name[data-astro-cid-j7pv25f6]{font-size:14px}.quote-title[data-astro-cid-j7pv25f6]{color:var(--olive-600)}.quote-card-1[data-astro-cid-j7pv25f6] .quote-title[data-astro-cid-j7pv25f6]{font-size:14px}.quote-card-2[data-astro-cid-j7pv25f6] .quote-title[data-astro-cid-j7pv25f6],.quote-card-3[data-astro-cid-j7pv25f6] .quote-title[data-astro-cid-j7pv25f6]{font-size:13px}.illumap[data-astro-cid-j7pv25f6]{position:relative;z-index:5}.illumap-fixed-layer[data-astro-cid-j7pv25f6]{position:fixed;top:0;left:calc((100vw - 1440px)/2);width:1440px;height:100vh;pointer-events:none;z-index:0}.illumap-bgs[data-astro-cid-j7pv25f6]{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;pointer-events:none;z-index:0;transition:opacity .6s ease}.illumap-bg[data-astro-cid-j7pv25f6]{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0}.illumap-bg[data-astro-cid-j7pv25f6] img[data-astro-cid-j7pv25f6]{width:70%;height:70%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.illumap-frames[data-astro-cid-j7pv25f6]{position:relative;z-index:2;padding-top:50vh}.illumap-fadeout-spacer[data-astro-cid-j7pv25f6]{height:30vh}.illumap-frame[data-astro-cid-j7pv25f6]{width:100%;min-height:100vh;display:flex;align-items:center;padding:0 160px;position:relative}.illumap-frame[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6]{max-width:352px;padding:32px;border-radius:16px;position:absolute;top:50%;transform:translateY(-50%);background:#fbf9f380}.illumap-frame[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6]:before{content:"";position:absolute;inset:-48px;background:#fbf9f3b3;border-radius:48px;filter:blur(32px);z-index:-1}.illumap-frame[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6] h3[data-astro-cid-j7pv25f6]{margin-bottom:24px}.illumap-frame[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6] .body-lg[data-astro-cid-j7pv25f6]{color:var(--olive-600)}.illumap-frame-1[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6]{left:814px}.illumap-frame-2[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6]{left:296px}.illumap-frame-3[data-astro-cid-j7pv25f6] .text-content[data-astro-cid-j7pv25f6]{left:762px}.illumap-img-fixed[data-astro-cid-j7pv25f6]{position:absolute;top:50%;transform:translateY(-50%);opacity:0;z-index:3;pointer-events:none}.illumap-img-fixed[data-astro-cid-j7pv25f6] img[data-astro-cid-j7pv25f6]{object-fit:cover;display:block}.illumap-img-1[data-astro-cid-j7pv25f6]{left:60px}.illumap-img-1[data-astro-cid-j7pv25f6] img[data-astro-cid-j7pv25f6]{width:362px;height:452px}.illumap-img-2[data-astro-cid-j7pv25f6]{right:56px}.illumap-img-2[data-astro-cid-j7pv25f6] img[data-astro-cid-j7pv25f6]{width:431px;height:540px}.illumap-img-3[data-astro-cid-j7pv25f6]{left:-125px}.illumap-img-3[data-astro-cid-j7pv25f6] img[data-astro-cid-j7pv25f6]{width:500px;height:380px}.faq[data-astro-cid-j7pv25f6]{max-width:928px;margin:0 auto;padding:40px 0 260px}.faq[data-astro-cid-j7pv25f6] h4[data-astro-cid-j7pv25f6]{margin-bottom:32px}.faq-list[data-astro-cid-j7pv25f6]{display:flex;flex-direction:column;gap:8px}.faq-item[data-astro-cid-j7pv25f6]{background:var(--olive-200);border-radius:28px;overflow:hidden;transition:background .3s}.faq-item[data-astro-cid-j7pv25f6].open{background:var(--white)}.faq-question[data-astro-cid-j7pv25f6]{display:flex;align-items:center;justify-content:space-between;height:56px;padding:0 8px 0 32px;cursor:pointer;font-size:16px;line-height:1.5;user-select:none}.faq-toggle[data-astro-cid-j7pv25f6]{width:40px;height:40px;border-radius:999px;background:var(--olive-300);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:transform .3s}.faq-item[data-astro-cid-j7pv25f6].open .faq-toggle[data-astro-cid-j7pv25f6]{transform:rotate(180deg);background:var(--olive-200)}.faq-toggle[data-astro-cid-j7pv25f6] svg[data-astro-cid-j7pv25f6]{width:16px;height:16px}.faq-answer[data-astro-cid-j7pv25f6]{max-height:0;overflow:hidden;transition:max-height .4s ease}.faq-answer-inner[data-astro-cid-j7pv25f6]{padding:0 32px 24px;font-size:16px;line-height:1.5;color:var(--olive-600)}
+.footer-compact{position:relative;width:100vw;margin-left:calc(-.5*(100vw - 100%));margin-top:160px;background:var(--olive-200);padding:40px 160px;display:flex;flex-direction:column;gap:40px;align-items:flex-start}.footer-compact-logo{width:328px;height:40px;display:block}.footer-compact-links{width:100%;display:flex;gap:24px;align-items:center;justify-content:center;flex-wrap:wrap}.footer-compact-links a{font-family:Jost,sans-serif;font-weight:400;font-size:20px;line-height:1.5;color:var(--olive-600);text-decoration:none}.footer-compact-links a:hover{color:var(--olive-800)}.footer-compact-lang{display:inline-flex;align-items:center;gap:4px}.footer-compact-lang span{text-decoration:underline}.footer-compact-lang img{width:24px;height:24px;filter:brightness(0) saturate(100%) invert(32%) sepia(3%) saturate(1008%) hue-rotate(36deg) brightness(95%) contrast(86%)}.footer-compact-copyright{width:100%;text-align:center;font-family:Jost,sans-serif;font-weight:400;font-size:20px;line-height:1.5;color:var(--olive-600)}.footer-compact .scroll-to-top{position:absolute;bottom:48px;right:156px;width:48px;height:48px;border-radius:99px;background:var(--olive-300);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0;transition:background .2s}.footer-compact .scroll-to-top:hover{background:var(--olive-400)}.footer-compact .scroll-to-top img{width:20px;height:20px;filter:brightness(0) saturate(100%);transition:filter .2s}.footer-compact .scroll-to-top:hover img{filter:brightness(0) invert(1)}
+*,*:before,*:after{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:auto;overflow-x:clip}body{font-family:Jost,sans-serif;background:var(--olive-100);color:var(--olive-800);width:1440px;margin-left:calc((100vw - 1440px)/2)}:root{--olive-100: #fbf9f3;--olive-200: #e6e9de;--olive-300: #c4c6b8;--olive-400: #8b8c80;--olive-600: #535349;--olive-700: #414134;--olive-800: #2e2e1f;--accent-copper: #b98a67;--white: #ffffff;--text-label: #64645b}.theme-dahoam{--blue-950: #011d31;--blue-900: #012e4e;--blue-800: #003961;--blue-700: #346181;--blue-600: #537791;--blue-400: #809cb0;--blue-300: #b3c4d0;--blue-200: #ccd7df;--blue-100: #e6ebef}.theme-kulinarik{--blue-800: #003961;--blue-body: #b3c4d0}h1{font-size:64px;font-weight:400;line-height:1.15;letter-spacing:-1.28px}h2,h3{font-size:48px;font-weight:400;line-height:1.15}h4{font-size:32px;font-weight:400;line-height:1.15}h5{font-size:24px;font-weight:400;line-height:1.15}h6{font-size:20px;font-weight:400;line-height:1.15}p{font-size:16px;line-height:1.5}.body-xl{font-size:24px;line-height:1.15}.body-lg{font-size:20px;line-height:1.5}.body-sm{font-size:14px;line-height:1.5}.label{font-size:12px;font-weight:500;line-height:1.15;letter-spacing:.6px;text-transform:uppercase}.btn{display:inline-flex;align-items:center;justify-content:center;font-family:Jost,sans-serif;font-size:17px;font-weight:500;line-height:1.15;letter-spacing:.34px;border-radius:99px;border:none;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .3s,color .3s,border-color .3s}.btn-lg{height:56px;padding:8px 32px}.btn-xl{height:64px;padding:8px 40px}.btn-sm{height:40px;padding:4px 20px;font-size:14px}.btn-nav{height:80px;padding:8px 48px}.btn-primary{background:var(--olive-800);color:var(--olive-100)}.btn-primary:hover{background:var(--olive-600)}.btn-outline{background:transparent;border:1px solid var(--olive-400);color:var(--olive-800)}.btn-outline:hover{border-color:var(--olive-700)}.btn-accent{background:var(--accent-copper);color:var(--olive-800)}.btn-link{background:none;border:none;font-family:Jost,sans-serif;font-size:17px;font-weight:500;letter-spacing:.34px;text-decoration:underline;cursor:pointer;padding:0}.icon-btn-sm{width:48px;height:48px;border-radius:99px;background:var(--olive-300);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .3s}.icon-btn-sm img{filter:brightness(0) saturate(100%);transition:filter .3s}.icon-btn-sm:hover{background:var(--olive-400)}.icon-btn-sm:hover img{filter:brightness(0) invert(1)}.icon-btn-sm.disabled{background:#c4c6b866;cursor:default;pointer-events:none}.icon-btn-sm.disabled img{opacity:.4;filter:brightness(0) saturate(100%)}@keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}@keyframes fadeIn{to{opacity:1}}body:after{content:"";position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;opacity:.025;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");background-repeat:repeat}*:focus-visible{outline:2px solid var(--accent-copper);outline-offset:3px;border-radius:4px}.btn:focus-visible,.icon-btn-sm:focus-visible,.nav-burger:focus-visible{outline:2px solid var(--accent-copper);outline-offset:3px}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.hero-bg video{animation:none}.parallax-img{transform:none!important}.reveal,.reveal-stagger>*{opacity:1;transform:none}}.parallax-img{will-change:transform}.reveal{opacity:0;transform:translateY(40px)}.reveal.visible{opacity:1;transform:translateY(0);transition:opacity .6s ease,transform .6s ease}.reveal-stagger>*{opacity:0;transform:translateY(30px);transition:opacity .5s ease,transform .5s ease}.reveal-stagger.visible>*:nth-child(1){transition-delay:0s}.reveal-stagger.visible>*:nth-child(2){transition-delay:.08s}.reveal-stagger.visible>*:nth-child(3){transition-delay:.16s}.reveal-stagger.visible>*:nth-child(4){transition-delay:.24s}.reveal-stagger.visible>*{opacity:1;transform:translateY(0)}.hero{position:relative;width:max(100vw,1440px);height:100vh;overflow:hidden;margin-left:calc((1440px - max(100vw,1440px))/2)}.hero-bg{position:absolute;inset:0;z-index:0;will-change:transform}.hero-bg video{width:100%;height:100%;object-fit:cover}.hero-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:#0000004d}.hero-content{position:absolute;top:0;left:0;width:100%;height:100%;z-index:2}.hero-logo-link{position:absolute;top:128px;left:160px;display:block}.hero-logo{width:328px;height:auto;display:block;opacity:0;transform:translateY(20px);animation:fadeInUp .8s ease forwards .3s;filter:brightness(0) invert(1)}.hero-text{position:absolute;top:50%;left:160px;transform:translateY(-50%);opacity:0;animation:fadeIn .8s ease forwards .8s}.hero-subtitle{font-size:24px;line-height:1.15;color:var(--white);text-shadow:0px 4px 4px rgba(0,0,0,.25);margin-bottom:24px}.hero h1{color:var(--white);text-shadow:0px 4px 4px rgba(0,0,0,.25)}@keyframes kenBurns{0%{transform:scale(1)}to{transform:scale(1.06)}}.hero-bg video{animation:kenBurns 25s ease-in-out alternate infinite}.rooms{padding:80px 0;overflow:hidden;width:max(100vw,1440px);margin-left:calc((1440px - max(100vw,1440px))/2)}.rooms-header{display:flex;align-items:center;gap:16px;padding:0 calc((max(100vw,1440px) - 1440px)/2 + 160px);margin-bottom:32px}.rooms-header h4{font-size:32px}.rooms-header-link{margin-left:auto;font-size:17px;font-weight:500;letter-spacing:.34px;color:var(--olive-600);text-decoration:underline;display:inline-flex;align-items:center;gap:8px}.rooms-header-link img{width:20px;height:20px}.rooms-count{display:inline-flex;align-items:center;gap:8px;background:var(--olive-200);border-radius:99px;height:80px;padding:0 32px;cursor:pointer}.rooms-count span{font-size:30px}.rooms-count .chevron{width:24px;height:24px}.rooms-scroll-wrapper{position:relative}.rooms-track{display:flex;gap:24px;overflow-x:auto;scroll-behavior:smooth;scrollbar-width:none;padding:0 calc((max(100vw,1440px) - 1440px)/2 + 160px) 64px;align-items:flex-start}.rooms-track::-webkit-scrollbar{display:none}.room-card a{color:inherit;text-decoration:none}.room-card{flex:0 0 350px;height:450px;position:relative;overflow:hidden;cursor:pointer;border-radius:0 0 40px}.room-card .room-img{width:100%;height:450px;object-fit:cover;border-radius:0 0 40px;transition:transform .5s ease}.room-card:hover .room-img{transform:translateY(-8px)}.room-card-info{position:absolute;bottom:16px;left:16px;right:16px;display:flex;align-items:stretch;background:var(--olive-200);border-radius:28px;min-height:56px;transition:opacity .35s ease}.room-name{padding:6px 8px 6px 20px;font-size:14px;font-weight:500;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;flex:1;min-width:0;align-self:center}.room-price{background:var(--olive-100);border-radius:999px;padding:0 16px;white-space:nowrap;display:flex;align-items:center;gap:6px;flex-shrink:0}.room-price .price-label{font-size:12px;color:var(--text-label)}.room-price .price-value{font-size:14px;color:var(--olive-800)}.room-card-detail-wrapper{position:absolute;bottom:0;left:0;right:0;pointer-events:none;max-height:56px;overflow:hidden;transition:max-height .6s cubic-bezier(.4,0,.2,1),opacity .3s ease;opacity:0}.room-card-detail-top{position:relative;background:var(--olive-200);border-radius:0 32px 0 0;padding:24px 16px 24px 32px}.room-card-detail{opacity:0;transform:translateY(8px);transition:opacity .3s ease .2s,transform .3s ease .2s}.room-card-detail-price{position:absolute;top:0;right:0;background:var(--olive-100);border-radius:999px;padding:12px 24px 12px 16px;height:64px;display:flex;align-items:center;gap:8px}.room-card-detail-price .price-label{font-size:12px;letter-spacing:.6px;color:var(--text-label)}.room-card-detail-price .price-value{font-size:18px;color:var(--olive-800)}.room-detail-icons{display:flex;gap:16px;margin-bottom:24px}.room-detail-icons span{font-size:14px;color:var(--olive-600);letter-spacing:.7px;display:flex;align-items:center;gap:4px}.room-detail-icons img{width:16px;height:16px;filter:brightness(0) saturate(100%)}.room-detail-name{font-size:16px;color:var(--olive-800);margin-bottom:8px}.room-detail-desc{font-size:14px;color:var(--olive-600);line-height:1.5;margin-bottom:16px}.room-detail-link{display:inline-flex;align-items:center;gap:8px;font-size:16px;color:var(--olive-600);text-decoration:underline;cursor:pointer}.room-detail-link img{width:24px;height:24px}.room-card:hover .room-card-info{opacity:0}.room-card:hover .room-card-detail-wrapper{max-height:300px;opacity:1;pointer-events:all}.room-card:hover .room-card-detail{opacity:1;transform:translateY(0)}.rooms-arrows{display:flex;gap:8px;justify-content:flex-end;margin-top:12px;margin-right:calc((max(100vw,1440px) - 1440px)/2 + 160px)}.nav-backdrop{position:fixed;top:0;left:0;width:100%;height:100%;background:#0000004d;backdrop-filter:blur(15px);-webkit-backdrop-filter:blur(15px);z-index:999;opacity:0;pointer-events:none;transition:opacity .4s ease}.nav-backdrop.active{opacity:1;pointer-events:all}.floating-nav{position:fixed;bottom:48px;left:50%;transform:translate(-50%);z-index:1000;width:906px;opacity:0;transform:translate(-50%) translateY(30px);animation:navSlideIn .8s ease forwards 1.3s;transition:opacity .4s ease}@keyframes navSlideIn{to{opacity:1;transform:translate(-50%) translateY(0)}}.nav-bar{background:var(--white);border-radius:48px;padding:8px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 4px 16px #00000012;position:relative;z-index:2;transition:box-shadow .3s}.nav-bar.no-shadow{box-shadow:none}.nav-burger{width:80px;height:80px;border-radius:99px;background:var(--olive-300);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .3s;flex-shrink:0}.nav-burger:hover{background:var(--olive-400)}.nav-burger .burger-icon,.nav-burger .close-icon{width:24px;height:24px}.nav-burger .close-icon,.nav-burger.open .burger-icon{display:none}.nav-burger.open .close-icon{display:block}.nav-logo{width:246px;height:30px;object-fit:contain;transition:opacity .4s ease,visibility .4s}.nav-logo.hidden{opacity:0;visibility:hidden}.nav-actions{display:flex;gap:8px;transition:opacity .4s ease,visibility .4s}.nav-actions.hidden{opacity:0;visibility:hidden;pointer-events:none}.nav-panel{position:absolute;bottom:0;left:0;right:0;background:var(--white);border-radius:48px;box-shadow:0 4px 16px #00000012;height:96px;overflow:hidden;transition:height .4s cubic-bezier(.4,0,.2,1),left .4s cubic-bezier(.4,0,.2,1),right .4s cubic-bezier(.4,0,.2,1);z-index:1}.nav-panel.open{height:700px;left:-40px;right:-40px}.nav-panel-inner{padding:54px 60px 0;opacity:0;pointer-events:none;transition:opacity .3s ease 0s;height:604px;position:relative}.nav-panel.open .nav-panel-inner{opacity:1;pointer-events:all;transition-delay:.2s}.nav-panel-content{display:flex;gap:80px;height:100%;position:relative;overflow:hidden}.nav-menu-slider{width:294px;flex-shrink:0;position:relative;overflow:hidden;height:100%}.nav-menu-slide{display:flex;width:588px;height:100%;transition:transform .4s cubic-bezier(.4,0,.2,1)}.nav-menu-slide.show-sub{transform:translate(-294px)}.nav-main-menu{width:294px;flex-shrink:0}.nav-sub-menu{width:294px;flex-shrink:0;display:flex;flex-direction:column;overflow:hidden;position:relative}.nav-submenu-scroll{flex:1;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:var(--olive-300) transparent;padding-bottom:100px}.nav-submenu-scroll::-webkit-scrollbar{width:4px}.nav-submenu-scroll::-webkit-scrollbar-track{background:transparent}.nav-submenu-scroll::-webkit-scrollbar-thumb{background:var(--olive-300);border-radius:4px}.nav-submenu-scroll::-webkit-scrollbar-thumb:hover{background:var(--olive-400)}.nav-menu-slider:after{content:"";position:absolute;bottom:0;left:0;right:0;height:80px;pointer-events:none;background:linear-gradient(to bottom,#fff0,#fff);z-index:2}.nav-menu-logo{width:240px;height:30px;margin-bottom:32px}.nav-menu-items{display:flex;flex-direction:column}.nav-menu-item{display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--olive-200);font-size:20px;line-height:1.5;cursor:pointer;transition:color .2s}.nav-menu-item:last-child{border-bottom:none}.nav-menu-item:hover{color:var(--olive-600)}.nav-menu-item .arrow{width:20px;height:20px}.nav-submenu-back{display:flex;align-items:center;gap:8px;padding:8px 0;cursor:pointer;font-size:14px;color:var(--text-label);border:none;background:none;font-family:Jost,sans-serif;margin-bottom:8px}.nav-submenu-back img{width:16px;height:16px}.nav-submenu-label{font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.6px;color:var(--text-label);padding:32px 0 24px}.nav-submenu-item{padding:12px 0;border-bottom:1px solid var(--olive-200);font-size:20px;line-height:1.5;cursor:pointer}.nav-submenu-item:last-child{border-bottom:none}.nav-offer{flex:1;display:flex;align-items:stretch;justify-content:center}.nav-offer-bg{background:var(--olive-100);border-radius:40px;padding:32px;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center}.nav-offer-card{max-width:250px;transition:opacity .35s ease,transform .35s ease}.nav-offer-card.out-fwd{opacity:0;transform:translate(-80px);pointer-events:none}.nav-offer-card.in-fwd-prep{opacity:0;transform:translate(80px)}.nav-offer-card.out-back{opacity:0;transform:translate(80px);pointer-events:none}.nav-offer-card.in-back-prep{opacity:0;transform:translate(-80px)}.nav-offer-card.settle{opacity:1;transform:translate(0)}.nav-offer-card img{width:100%;height:150px;object-fit:cover;border-radius:8px;margin-bottom:16px}.nav-offer h6{margin-bottom:8px}.nav-offer p{font-size:14px;color:var(--olive-600);margin-bottom:12px}.nav-offer-link{display:inline-flex;gap:8px;font-size:16px;color:var(--olive-600);cursor:pointer}.nav-offer-link span{text-decoration:underline;line-height:24px}.nav-offer-link img{flex-shrink:0;width:24px;height:24px;display:block}.nav-lang{font-size:16px;color:var(--olive-600);display:flex;align-items:center;gap:4px;cursor:pointer;text-decoration:underline;opacity:0;pointer-events:none;position:absolute;right:56px;top:50%;transform:translateY(-50%);transition:opacity .3s ease 0s}.nav-lang.visible{opacity:1;pointer-events:all;transition-delay:.35s}.guest-pill{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;background:var(--olive-200);border-radius:99px;height:80px;padding:8px 32px 12px;border:none;cursor:pointer;font-family:Jost,sans-serif;transition:background .3s}.guest-pill:hover{background:var(--olive-300)}.guest-label{font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.6px;color:var(--text-label);line-height:1.15}.guest-count{font-size:44px;font-weight:400;color:var(--olive-800);line-height:1}.nav-variant-dahoam .nav-burger{background:#99b0c0}.nav-variant-dahoam .nav-burger:hover{background:var(--blue-400)}.nav-variant-dahoam .nav-burger .burger-icon{filter:brightness(0) invert(1)}.nav-variant-dahoam .nav-burger .close-icon{color:#fff}.nav-variant-dahoam .nav-logo{width:164px;height:32px}.nav-variant-dahoam .guest-pill{background:var(--blue-100)}.nav-variant-dahoam .guest-pill:hover{background:var(--blue-200)}.nav-variant-dahoam .guest-label{color:#6788a0}.nav-variant-dahoam .guest-count{color:var(--blue-950)}.prefooter{background:var(--olive-300);padding:80px 200px;display:flex;flex-direction:column;align-items:center;gap:40px;width:max(100vw,1440px);margin-left:calc((1440px - max(100vw,1440px))/2)}.prefooter .label{color:var(--white);text-align:center}.partner-logos{display:flex;align-items:center;gap:72px}.partner-logos img{height:60px;width:auto;object-fit:contain;opacity:.7;filter:brightness(0) invert(1)}.footer{background:var(--olive-200);padding:80px calc((max(100vw,1440px) - 1440px)/2 + 160px);width:max(100vw,1440px);margin-left:calc((1440px - max(100vw,1440px))/2);position:relative}.footer-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:83px}.footer-logo-text{width:328px;height:auto}.footer-logo-icon{width:40px;height:40px}.footer-content{display:flex;justify-content:space-between;width:1010px}.footer-left{flex:1;max-width:516px;display:flex;flex-direction:column;gap:24px}.footer-block{padding-bottom:24px;border-bottom:1px solid var(--olive-300)}.footer-block:last-of-type{border-bottom:none;padding-bottom:0}.footer-block .label{color:var(--text-label);margin-bottom:8px}.footer-block .body-lg{color:var(--olive-600);margin-bottom:8px}.footer-link{display:inline-flex;align-items:center;gap:8px;font-size:17px;font-weight:500;letter-spacing:.34px;color:var(--olive-600);text-decoration:none;cursor:pointer}.footer-link span{text-decoration:underline}.footer-link img{width:24px;height:24px;flex-shrink:0}.footer-phone{color:inherit;text-decoration:none;display:block}.footer-block .links-row{display:flex;gap:24px}.footer-right{width:181px;display:flex;flex-direction:column;gap:24px}.footer-right a{font-size:20px;color:var(--olive-600);text-decoration:none;position:relative}.footer-right a:after{content:"";position:absolute;bottom:-2px;left:0;width:0;height:1px;background:var(--olive-600);transition:width .3s ease}.footer-right a:hover:after{width:100%}.footer-lang{display:inline-flex;align-items:center;gap:8px;margin-top:16px;font-size:17px;font-weight:500;letter-spacing:.34px;color:var(--olive-600);cursor:pointer}.footer-lang span{text-decoration:underline}.footer-lang img{width:24px;height:24px;flex-shrink:0}.footer-social{display:flex;gap:24px;margin-top:16px}.footer-social a{width:32px;height:32px;display:flex;align-items:center;justify-content:center}.footer-social img{width:32px;height:32px}.footer-copyright{margin-top:56px;font-size:20px;color:var(--olive-600)}.scroll-to-top{position:absolute;bottom:80px;right:calc((max(100vw,1440px) - 1440px)/2 + 156px);width:48px;height:48px;border-radius:99px;background:var(--olive-300);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .3s}.scroll-to-top:hover{background:var(--olive-400)}.scroll-to-top img{width:20px;height:20px;filter:brightness(0) saturate(100%);transition:filter .3s}.scroll-to-top:hover img{filter:brightness(0) invert(1)}.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;z-index:10000;background:var(--olive-800);color:var(--white);padding:12px 24px;border-radius:0 0 8px;text-decoration:none;font-size:14px}.skip-link:focus{position:fixed;left:0;top:0;width:auto;height:auto}
+</style></head> <body class> <a href="#main" class="skip-link">Zum Inhalt springen</a> <main id="main">   <section class="hero" role="banner" data-astro-cid-j7pv25f6> <div class="hero-bg" data-astro-cid-j7pv25f6> <video autoplay muted loop playsinline aria-hidden="true" data-astro-cid-j7pv25f6> <source src="media/start-hero.mp4" type="video/mp4" data-astro-cid-j7pv25f6> </video> </div> <div class="hero-overlay" data-astro-cid-j7pv25f6></div> <div class="hero-content" data-astro-cid-j7pv25f6> <a href="index.html" class="hero-logo-link" data-astro-cid-j7pv25f6><img src="media/logo-riederalm-full.svg" alt="Riederalm - Startseite" class="hero-logo" data-astro-cid-j7pv25f6></a> <div class="hero-text" data-astro-cid-j7pv25f6> <p class="hero-subtitle" data-astro-cid-j7pv25f6>Ihr Luxusurlaub in den österreichischen Alpen.</p> <h1 data-astro-cid-j7pv25f6>Willkommen im<br data-astro-cid-j7pv25f6>Good Life Resort</h1> </div> </div> </section>  <section class="channel-nav" aria-label="Urlaubskategorien" data-astro-cid-j7pv25f6> <div class="channel-nav-tiles" data-astro-cid-j7pv25f6> <div class="channel-tile" role="link" tabindex="0" data-astro-cid-j7pv25f6><img src="media/illu-05.svg" alt="Familienurlaub Illustration" data-astro-cid-j7pv25f6><span data-astro-cid-j7pv25f6>Familienzeit</span></div> <div class="channel-tile" role="link" tabindex="0" data-astro-cid-j7pv25f6><img src="media/illu-01.svg" alt="Romantikurlaub Illustration" data-astro-cid-j7pv25f6><span data-astro-cid-j7pv25f6>Zweisamzeit</span></div> <div class="channel-tile" role="link" tabindex="0" data-astro-cid-j7pv25f6><img src="media/illu-04.svg" alt="Kulinarik Illustration" data-astro-cid-j7pv25f6><span data-astro-cid-j7pv25f6>Genusszeit</span></div> <div class="channel-tile" role="link" tabindex="0" data-astro-cid-j7pv25f6><img src="media/illu-03.svg" alt="Wellness Illustration" data-astro-cid-j7pv25f6><span data-astro-cid-j7pv25f6>Wellness</span></div> </div> </section>  <section class="about" aria-label="Urlaubserlebnisse" data-astro-cid-j7pv25f6> <div class="about-block about-block-1" data-astro-cid-j7pv25f6> <div class="text-content reveal-stagger" data-astro-cid-j7pv25f6> <h3 data-astro-cid-j7pv25f6>Spass haben &amp;<br data-astro-cid-j7pv25f6>entspannen</h3> <p class="body-lg" data-astro-cid-j7pv25f6>Erleben Sie unvergessliche Familienmomente in den Salzburger Alpen. Ob Abenteuer im Freien oder entspannte Stunden im Spa &ndash; bei uns kommt jeder auf seine Kosten.</p> <a href="#" class="btn btn-primary btn-lg" data-astro-cid-j7pv25f6>Familienzeit buchen</a> </div> <img src="media/image 9.jpg" alt="Familie beim Skifahren in den Alpen" class="img-main parallax-img" data-speed="7" data-astro-cid-j7pv25f6> <img src="media/image 10.jpg" alt="Abendstimmung am Pool" class="img-secondary parallax-img" data-speed="15" data-astro-cid-j7pv25f6> <img src="media/illu-01.svg" alt="" class="illu" aria-hidden="true" data-astro-cid-j7pv25f6> </div> <div class="about-block about-block-2" data-astro-cid-j7pv25f6> <div class="text-content reveal-stagger" data-astro-cid-j7pv25f6> <h3 data-astro-cid-j7pv25f6>Gemeinsam<br data-astro-cid-j7pv25f6>Momente<br data-astro-cid-j7pv25f6>geniessen.</h3> <p class="body-lg" data-astro-cid-j7pv25f6>Romantische Auszeit zu zweit: Geniessen Sie kulinarische Highlights, erholsame Wellness-Treatments und die Ruhe der Natur.</p> <a href="#" class="btn btn-primary btn-lg" data-astro-cid-j7pv25f6>Zweisamzeit buchen</a> </div> <img src="media/image 12.jpg" alt="Romantischer Bergblick zu zweit" class="img-main parallax-img" data-speed="7" data-astro-cid-j7pv25f6> <img src="media/image 11.jpg" alt="Gemütliches Abendessen" class="img-secondary parallax-img" data-speed="15" data-astro-cid-j7pv25f6> </div> <div class="about-block about-block-3" data-astro-cid-j7pv25f6> <div class="text-content reveal-stagger" data-astro-cid-j7pv25f6> <h3 data-astro-cid-j7pv25f6>Vom Sternekoch<br data-astro-cid-j7pv25f6>verwöhnen lassen</h3> <p class="body-lg" data-astro-cid-j7pv25f6>Entdecken Sie kulinarische Meisterwerke unseres Küchenchefs Andreas Herbst, zubereitet mit regionalen Zutaten und internationaler Raffinesse.</p> <a href="#" class="btn btn-primary btn-lg" data-astro-cid-j7pv25f6>Genusszeit buchen</a> </div> <img src="media/image 13.jpg" alt="Gourmetgericht aus der Sterneküche" class="img-main parallax-img" data-speed="-8" data-astro-cid-j7pv25f6> <img src="media/image 14.jpg" alt="Kulinarische Details" class="img-secondary parallax-img" data-speed="16.5" data-astro-cid-j7pv25f6> <img src="media/illu-02.svg" alt="" class="illu" aria-hidden="true" data-astro-cid-j7pv25f6> </div> <div class="about-block about-block-4" data-astro-cid-j7pv25f6> <div class="text-content reveal-stagger" data-astro-cid-j7pv25f6> <h3 data-astro-cid-j7pv25f6>Den Alltag<br data-astro-cid-j7pv25f6>zu Hause lassen</h3> <p class="body-lg" data-astro-cid-j7pv25f6>Tauchen Sie ein in die Welt der Entspannung. Unser Mountain Spa bietet alpines Panorama, Saunalandschaft und wohltuende Massagen.</p> <a href="#" class="btn btn-primary btn-lg" data-astro-cid-j7pv25f6>Jetzt eintauchen</a> </div> <img src="media/image 15.jpg" alt="Mountain Spa mit Alpenpanorama" class="img-main parallax-img" data-speed="7" data-astro-cid-j7pv25f6> <img src="media/image 16.jpg" alt="Wellness-Behandlung" class="img-secondary parallax-img" data-speed="-6.5" data-astro-cid-j7pv25f6> </div> </section>  <section class="big-morph" id="bigMorph" data-astro-cid-j7pv25f6> <div class="doortag-section" id="doortagSection" data-astro-cid-j7pv25f6> <div class="doortag-sticky" data-astro-cid-j7pv25f6> <div class="doortag-wrapper" id="doortagWrapper" data-astro-cid-j7pv25f6> <img src="media/door-tag_full.svg" alt="" class="doortag-bg-img" id="doortagImg" data-astro-cid-j7pv25f6> </div> <div class="features-overlay" id="featuresOverlay" data-astro-cid-j7pv25f6> <div class="features-inner" data-astro-cid-j7pv25f6> <div class="feature-card" data-astro-cid-j7pv25f6> <div class="icon" data-astro-cid-j7pv25f6><img src="media/chef-hat.svg" alt="" data-astro-cid-j7pv25f6></div> <h4 data-astro-cid-j7pv25f6>Geniessen im<br data-astro-cid-j7pv25f6>Sterne-Restaurant<br data-astro-cid-j7pv25f6>&laquo;dahoam&raquo;</h4> <p data-astro-cid-j7pv25f6>Entdecken Sie kulinarische Highlights und regionale Köstlichkeiten, die unter der Leitung des ausgezeichneten Küchenchefs Andreas Herbst für Sie zubereitet werden.</p> <a href="#" class="btn btn-accent btn-xl" data-astro-cid-j7pv25f6>Tisch reservieren</a> </div> <div class="feature-card" data-astro-cid-j7pv25f6> <div class="icon" data-astro-cid-j7pv25f6><img src="media/meditation.svg" alt="" data-astro-cid-j7pv25f6></div> <h4 data-astro-cid-j7pv25f6>Erholen im<br data-astro-cid-j7pv25f6>Wellness &amp; Spa</h4> <p data-astro-cid-j7pv25f6>Geniessen Sie entspannte Stunden mit alpinem Panoramablick im Thermalpool unseres Adults Only Mountain Spa, beim abwechslungsreichen Saunaprogramm oder gönnen Sie sich Zeit für eine erholsame Massage.</p> <button class="btn-link" style="color: var(--olive-300);" data-astro-cid-j7pv25f6>Jetzt eintauchen</button> </div> <div class="feature-card" data-astro-cid-j7pv25f6> <div class="icon" data-astro-cid-j7pv25f6><img src="media/bicycle.svg" alt="" data-astro-cid-j7pv25f6></div> <h4 data-astro-cid-j7pv25f6>Im Sommer Bike-In<br data-astro-cid-j7pv25f6>Bike-Out, im Winter<br data-astro-cid-j7pv25f6>Ski-In Ski-Out</h4> <p data-astro-cid-j7pv25f6>Erleben Sie ganzjährig bei uns das Abenteuer &ndash; von mountainbike-aufgeladenen Sommertagen bis hin zu winterlichem Schneevergnügen!</p> <button class="btn-link" style="color: var(--olive-300);" data-astro-cid-j7pv25f6>Jetzt entdecken</button> </div> <img src="media/riederalm-icon.svg" alt="" class="features-logo" data-astro-cid-j7pv25f6> </div> </div> </div> </div> </section>  <section class="rooms" aria-label="Zimmerauswahl"> <div class="rooms-header"> <h4>Ein Zimmer für</h4> <div class="rooms-count"> <span>3</span> <img src="media/type=chevron-down.svg" alt="" class="chevron"> </div> <a href="zimmer.html" class="rooms-header-link"> <span>Alle Zimmer ansehen</span> <img src="media/type=arrow-right.svg" alt=""> </a> </div> <div class="rooms-scroll-wrapper"> <div class="rooms-track" id="roomsTrack"></div> <div class="rooms-arrows"> <button class="icon-btn-sm disabled" id="roomsTrackPrev" aria-label="Vorherige Zimmer"> <img src="media/type=chevron-left.svg" alt="" style="width:24px;height:24px;"> </button> <button class="icon-btn-sm" id="roomsTrackNext" aria-label="Nächste Zimmer"> <img src="media/type=chevron-right.svg" alt="" style="width:24px;height:24px;"> </button> </div> </div> </section> <script src="rooms-data.js"></script> <script data-trackid="roomsTrack" data-exclude>
+(function() {
+  var self = document.currentScript;
+  var trackId = self.getAttribute('data-trackid');
+  var excludeRoom = self.getAttribute('data-exclude') || '';
+  window.RIEDERALM_RENDER_ROOMS && window.RIEDERALM_RENDER_ROOMS(trackId, 10, excludeRoom || undefined);
+  var track = document.getElementById(trackId);
+  var prev = document.getElementById(trackId + 'Prev');
+  var next = document.getElementById(trackId + 'Next');
+  if (!track || !prev || !next) return;
+  next.addEventListener('click', function() { track.scrollBy({ left: 304, behavior: 'smooth' }); });
+  prev.addEventListener('click', function() { if (!prev.classList.contains('disabled')) track.scrollBy({ left: -304, behavior: 'smooth' }); });
+  track.addEventListener('scroll', function() {
+    var atStart = track.scrollLeft <= 10;
+    var atEnd = track.scrollLeft >= track.scrollWidth - track.clientWidth - 10;
+    prev.classList.toggle('disabled', atStart);
+    next.classList.toggle('disabled', atEnd);
+  });
+})();
+</script>  <section class="quotes" data-astro-cid-j7pv25f6> <img src="media/quote_up.svg" alt="" class="quote-deco quote-deco-up" data-astro-cid-j7pv25f6> <img src="media/quote_low.svg" alt="" class="quote-deco quote-deco-low" data-astro-cid-j7pv25f6> <div class="quote-card quote-card-1" data-astro-cid-j7pv25f6> <p class="quote-text" data-astro-cid-j7pv25f6>Die Riederalm schafft etwas, das nur selten gelingt: gehobene Qualität ohne Steifheit. Man fühlt sich vom ersten Moment an willkommen, entschleunigt und rundum bestens aufgehoben.</p> <div class="quote-author" data-astro-cid-j7pv25f6> <div data-astro-cid-j7pv25f6><div class="quote-name" data-astro-cid-j7pv25f6>Anna Berger</div><div class="quote-title" data-astro-cid-j7pv25f6>Geschäftsführerin eines Interior-Studios, Wien</div></div> </div> </div> <div class="quote-card quote-card-2" data-astro-cid-j7pv25f6> <p class="quote-text" data-astro-cid-j7pv25f6>Für mich ist die Riederalm die perfekte Balance aus Rückzug, Genuss und Aktivität. Jeder Besuch fühlt sich wie Ankommen an.</p> <div class="quote-author" data-astro-cid-j7pv25f6> <div data-astro-cid-j7pv25f6><div class="quote-name" data-astro-cid-j7pv25f6>Claudia Hofer</div><div class="quote-title" data-astro-cid-j7pv25f6>Reisejournalistin und Wellnessliebhaberin</div></div> </div> </div> <div class="quote-card quote-card-3" data-astro-cid-j7pv25f6> <p class="quote-text" data-astro-cid-j7pv25f6>Was mich besonders beeindruckt hat, ist das Zusammenspiel aus erstklassiger Kulinarik, stilvollem Ambiente und echter Herzlichkeit.</p> <div class="quote-author" data-astro-cid-j7pv25f6> <div data-astro-cid-j7pv25f6><div class="quote-name" data-astro-cid-j7pv25f6>Markus Leitner</div><div class="quote-title" data-astro-cid-j7pv25f6>Unternehmensberater und Stammgast</div></div> </div> </div> </section>  <div class="illumap-fixed-layer" data-astro-cid-j7pv25f6> <div class="illumap-bgs" id="illumapBgs" data-astro-cid-j7pv25f6> <div class="illumap-bg" id="illumapBg0" data-astro-cid-j7pv25f6><img src="media/bg-illu-0.png" alt="" data-astro-cid-j7pv25f6></div> <div class="illumap-bg" id="illumapBg1" data-astro-cid-j7pv25f6><img src="media/bg-illu-1.png" alt="" data-astro-cid-j7pv25f6></div> <div class="illumap-bg" id="illumapBg2" data-astro-cid-j7pv25f6><img src="media/bg-illu-2.png" alt="" data-astro-cid-j7pv25f6></div> <div class="illumap-bg" id="illumapBg3" data-astro-cid-j7pv25f6><img src="media/bg-illu-3.png" alt="" data-astro-cid-j7pv25f6></div> </div> <!-- Fixed illumap images (slide in/out per frame) --> <div class="illumap-img-fixed illumap-img-1" id="illumapImg1" data-astro-cid-j7pv25f6><img src="media/image 18.jpg" alt="" data-astro-cid-j7pv25f6></div> <div class="illumap-img-fixed illumap-img-2" id="illumapImg2" data-astro-cid-j7pv25f6><img src="media/image 10.jpg" alt="" data-astro-cid-j7pv25f6></div> <div class="illumap-img-fixed illumap-img-3" id="illumapImg3" data-astro-cid-j7pv25f6><img src="media/image 22.jpg" alt="" data-astro-cid-j7pv25f6></div> </div> <section class="illumap" id="illumap" data-astro-cid-j7pv25f6> <div class="illumap-frames" data-astro-cid-j7pv25f6> <div class="illumap-frame illumap-frame-1" data-index="0" data-astro-cid-j7pv25f6> <div class="text-content" data-astro-cid-j7pv25f6> <h3 data-astro-cid-j7pv25f6>Den Alltag<br data-astro-cid-j7pv25f6>zu Hause lassen</h3> <p class="body-lg" data-astro-cid-j7pv25f6>Tauchen Sie ein in die Ruhe der Natur und lassen Sie den Alltag hinter sich. Unser Resort bietet den perfekten Rückzugsort für Erholung und Genuss.</p> </div> </div> <div class="illumap-frame illumap-frame-2" data-index="1" data-astro-cid-j7pv25f6> <div class="text-content" data-astro-cid-j7pv25f6> <h3 data-astro-cid-j7pv25f6>Direkt am Lift</h3> <p class="body-lg" data-astro-cid-j7pv25f6>Ski-in, Ski-out: Vom Hotel direkt auf die Piste und zurück. Keine Wartezeiten, kein Stress &ndash; einfach nur Skivergnügen pur.</p> </div> </div> <div class="illumap-frame illumap-frame-3" data-index="2" data-astro-cid-j7pv25f6> <div class="text-content" data-astro-cid-j7pv25f6> <h3 data-astro-cid-j7pv25f6>Natur pur erleben</h3> <p class="body-lg" data-astro-cid-j7pv25f6>Erkunden Sie die atemberaubende Berglandschaft rund um Leogang. Wandern, Biken oder einfach die Aussicht geniessen.</p> </div> </div> </div> <div class="illumap-fadeout-spacer" data-astro-cid-j7pv25f6></div> </section>  <section class="faq" aria-label="Häufig gestellte Fragen" data-astro-cid-j7pv25f6> <h4 data-astro-cid-j7pv25f6>Sie haben noch Fragen?</h4> <div class="faq-list" data-astro-cid-j7pv25f6> <div class="faq-item" data-astro-cid-j7pv25f6><div class="faq-question" role="button" tabindex="0" aria-expanded="false" data-astro-cid-j7pv25f6><span data-astro-cid-j7pv25f6>Wie kann ich ein Zimmer buchen?</span><div class="faq-toggle" data-astro-cid-j7pv25f6><svg viewBox="0 0 16 16" fill="none" data-astro-cid-j7pv25f6><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" data-astro-cid-j7pv25f6></path></svg></div></div><div class="faq-answer" data-astro-cid-j7pv25f6><div class="faq-answer-inner" data-astro-cid-j7pv25f6>Sie können direkt über unsere Website buchen oder uns telefonisch unter +43 6583 7342 kontaktieren. Gerne helfen wir Ihnen auch per E-Mail bei der Zimmerauswahl und Reservierung.</div></div></div> <div class="faq-item" data-astro-cid-j7pv25f6><div class="faq-question" role="button" tabindex="0" aria-expanded="false" data-astro-cid-j7pv25f6><span data-astro-cid-j7pv25f6>Was sind die Stornobedingungen?</span><div class="faq-toggle" data-astro-cid-j7pv25f6><svg viewBox="0 0 16 16" fill="none" data-astro-cid-j7pv25f6><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" data-astro-cid-j7pv25f6></path></svg></div></div><div class="faq-answer" data-astro-cid-j7pv25f6><div class="faq-answer-inner" data-astro-cid-j7pv25f6>Eine kostenfreie Stornierung ist bis 14 Tage vor Anreise möglich. Bei späteren Stornierungen werden gestaffelte Gebühren berechnet. Detaillierte Informationen finden Sie in unseren AGB.</div></div></div> <div class="faq-item" data-astro-cid-j7pv25f6><div class="faq-question" role="button" tabindex="0" aria-expanded="false" data-astro-cid-j7pv25f6><span data-astro-cid-j7pv25f6>Kann ich auch mit Hund anreisen?</span><div class="faq-toggle" data-astro-cid-j7pv25f6><svg viewBox="0 0 16 16" fill="none" data-astro-cid-j7pv25f6><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" data-astro-cid-j7pv25f6></path></svg></div></div><div class="faq-answer" data-astro-cid-j7pv25f6><div class="faq-answer-inner" data-astro-cid-j7pv25f6>Ja, Hunde sind bei uns herzlich willkommen! Wir bieten spezielle Hundebetten, Näpfe und Tipps für hundefreundliche Wanderwege in der Umgebung.</div></div></div> <div class="faq-item" data-astro-cid-j7pv25f6><div class="faq-question" role="button" tabindex="0" aria-expanded="false" data-astro-cid-j7pv25f6><span data-astro-cid-j7pv25f6>Wenn sich das Wetter ändert &ndash; was dann?</span><div class="faq-toggle" data-astro-cid-j7pv25f6><svg viewBox="0 0 16 16" fill="none" data-astro-cid-j7pv25f6><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" data-astro-cid-j7pv25f6></path></svg></div></div><div class="faq-answer" data-astro-cid-j7pv25f6><div class="faq-answer-inner" data-astro-cid-j7pv25f6>Bei schlechtem Wetter bieten wir ein umfangreiches Indoor-Programm: Spa, Hallenbad, Fitnessbereich, Kochkurse und unser Kinderclub sorgen für Abwechslung.</div></div></div> </div> </section>  </main> <section class="prefooter" aria-label="Partner"> <span class="label">Mit ausgewählten Partnern an unserer Seite</span> <div class="partner-logos"> <img src="media/logo-saalfelden.svg" alt="Saalfelden Leogang Tourismus"> <img src="media/logo-saalbach.svg" alt="Saalbach"> <img src="media/logo-epic-bike.svg" alt="Epic Bike"> <img src="media/logo-geniesser-hotels.svg" alt="Geniesser Hotels"> <img src="media/logo-tripadvisor.svg" alt="TripAdvisor"> <img src="media/logo-jre.svg" alt="JRE"> </div> </section> <footer class="footer"> <div class="footer-top"> <a href="intro.html" aria-label="Prototyp-Übersicht"><img src="media/logo-riederalm-full.svg" alt="Riederalm Prototyp" class="footer-logo-text"></a> </div> <div class="footer-content"> <div class="footer-left"> <div class="footer-block"> <div class="label">E-Mail</div> <div class="body-lg">info@riederalm.com</div> <a href="#" class="footer-link"><img src="media/type=arrow-right.svg" alt=""><span>Schreiben Sie uns</span></a> </div> <div class="footer-block"> <div class="label">Telefon</div> <a href="tel:+4365837342" class="body-lg footer-phone">+43 6583 7342</a> <div class="links-row"> <a href="#" class="footer-link"><img src="media/type=arrow-right.svg" alt=""><span>WhatsApp schreiben</span></a> <a href="#" class="footer-link"><img src="media/type=arrow-right.svg" alt=""><span>Rückruf vereinbaren</span></a> </div> </div> <div class="footer-block"> <div class="label">Adresse</div> <div class="body-lg">Rain 100, 5771 Leogang, Österreich</div> <a href="#" class="footer-link"><img src="media/type=arrow-right.svg" alt=""><span>Anreise (Google Maps)</span></a> </div> <p class="footer-copyright">&copy; 2026 Riederalm. All rights reserved.</p> </div> <div class="footer-right"> <a href="#">Impressum</a> <a href="#">Newsletter</a> <a href="#">Datenschutz</a> <a href="#">Barrierefreiheit</a> <a href="#">Presse</a> <a href="#">Cookies</a> <a href="#">AGB</a> <div class="footer-lang"><img src="media/type=arrow-right.svg" alt=""><span>Switch to English</span></div> <div class="footer-social"> <a href="#" aria-label="Facebook"><img src="media/facebook.svg" alt="Facebook"></a> <a href="#" aria-label="Instagram"><img src="media/Instagram.svg" alt="Instagram"></a> <a href="#" aria-label="WhatsApp"><img src="media/whatsapp.svg" alt="WhatsApp"></a> </div> </div> </div> <button class="scroll-to-top" aria-label="Nach oben scrollen" onclick="window.scrollTo({top:0,behavior:'smooth'})"> <img src="media/type=arrow-up.svg" alt=""> </button> </footer> <div class="nav-backdrop" id="navBackdrop"></div> <nav class="floating-nav " id="floatingNav"> <div class="nav-panel" id="navPanel"> <div class="nav-panel-inner"> <div class="nav-panel-content"> <div class="nav-menu-slider"> <div class="nav-menu-slide" id="navMenuSlide"> <!-- Main menu --> <div class="nav-main-menu"> <a href="index.html"><img src="media/logo-riederalm-1.svg" alt="Riederalm - Startseite" class="nav-menu-logo"></a> <div class="nav-menu-items" id="navMenuItems"> <div class="nav-menu-item" data-submenu="riederalm"><span>Die Riederalm</span><img src="media/type=arrow-right.svg" alt="" class="arrow"></div> <div class="nav-menu-item" data-submenu="zimmer"><span>Zimmer &amp; Suiten</span><img src="media/type=arrow-right.svg" alt="" class="arrow"></div> <div class="nav-menu-item" data-submenu="kulinarik"><span>Kulinarik</span><img src="media/type=arrow-right.svg" alt="" class="arrow"></div> <div class="nav-menu-item" data-submenu="wellness"><span>Wellness</span><img src="media/type=arrow-right.svg" alt="" class="arrow"></div> <div class="nav-menu-item" data-submenu="goodlife"><span>Good Life</span><img src="media/type=arrow-right.svg" alt="" class="arrow"></div> <div class="nav-menu-item" data-submenu="angebote"><span>Angebote</span><img src="media/type=arrow-right.svg" alt="" class="arrow"></div> </div> </div> <!-- Sub menu (dynamic content) --> <div class="nav-sub-menu" id="navSubMenu"> <button class="nav-submenu-back" id="navSubBack"> <img src="media/type=arrow-left.svg" alt="">Zurück zum Hauptmenü
+</button> <div class="nav-submenu-label" id="navSubLabel">Kulinarik</div> <div class="nav-submenu-scroll"> <div class="nav-submenu-items" id="navSubItems"></div> </div> </div> </div> </div> <div class="nav-offer" id="navOffer"> <div class="nav-offer-bg"> <div class="nav-offer-card" id="navOfferCard"> <img src="media/image 40.jpg" alt="" id="navOfferImg"> <h6 id="navOfferTitle">Winterausklang Wellnesstage</h6> <p id="navOfferDesc">Was gibt es Schöneres als zum Winterende die Sonne zu genießen und traumhaft in unserem Mountain SPA zu relaxen.</p> <a href="angebot-detail.html" class="nav-offer-link"><img src="media/type=arrow-right.svg" alt=""><span>Angebotsdetails</span></a> </div> </div> </div> </div> </div> </div> <div class="nav-bar" id="navBar"> <button class="nav-burger" id="navBurger" aria-label="Menü öffnen" aria-expanded="false"> <img src="media/navigation.svg" alt="Menu" class="burger-icon"> <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg> </button> <a href="index.html" id="navLogoLink"><img src="media/logo-riederalm-1.svg" alt="Riederalm - Startseite" class="nav-logo" id="navLogo"></a> <div class="nav-actions" id="navActions">  <a href="formular.html" class="btn btn-outline btn-nav">Anfragen</a> <a href="#" class="btn btn-primary btn-nav">Zimmer buchen</a>  </div> <div class="nav-lang" id="navLang">Switch to English <img src="media/type=chevron-right.svg" alt="" style="width:24px;height:24px;"></div> </div> </nav> <script>
+// ============ NAVIGATION ============
+const navBurger = document.getElementById('navBurger');
+const navPanel = document.getElementById('navPanel');
+const navBar = document.getElementById('navBar');
+const navLogo = document.getElementById('navLogo');
+const navActions = document.getElementById('navActions');
+const navLang = document.getElementById('navLang');
+const navBackdrop = document.getElementById('navBackdrop');
+const navMenuSlide = document.getElementById('navMenuSlide');
+const navSubBack = document.getElementById('navSubBack');
+const navSubLabel = document.getElementById('navSubLabel');
+const navSubItems = document.getElementById('navSubItems');
+const navOfferImg = document.getElementById('navOfferImg');
+const navOfferTitle = document.getElementById('navOfferTitle');
+const navOfferDesc = document.getElementById('navOfferDesc');
+let navOpen = false;
+
+const defaultOffer = { img: 'media/image 40.jpg', title: 'Winterausklang Wellnesstage', desc: 'Was gibt es Schöneres als zum Winterende die Sonne zu genießen und traumhaft in unserem Mountain SPA zu relaxen.' };
+
+const subMenuData = {
+  riederalm: { label: 'Die Riederalm', items: ['\u00dcbersicht', 'Geschichte', 'Team', 'Nachhaltigkeit', 'Anreise'], offer: { img: 'media/image 35.jpg', title: 'Die Geschichte der Riederalm', desc: 'Erfahren Sie, wie aus einem kleinen Bergbauernhof ein preisgekr\u00f6ntes Good Life Resort wurde.' } },
+  zimmer: { label: 'Zimmer & Suiten', items: [{t:'\u00dcbersicht',href:'zimmer.html'}, 'Familienzimmer', 'Suiten', 'Doppelzimmer', 'Einzelzimmer'], offer: { img: 'media/image 26.jpg', title: 'Suite des Monats', desc: 'Entdecken Sie unsere ger\u00e4umige Pinzgauerin Suite mit Panoramablick auf die Leoganger Steinberge.' } },
+  kulinarik: { label: 'Kulinarik', items: [{t:'\u00dcbersicht',href:'kulinarik.html'}, 'Geniesserhotel Riederalm', {t:'Gourmetrestaurant \u00ABdahoam\u00BB',href:'dahoam.html'}, 'Hausgemachtes'], offer: { img: 'media/image 14.jpg', title: 'Gourmetabende im \u00ABdahoam\u00BB', desc: 'Erleben Sie ein 7-G\u00e4nge-Men\u00fc mit Weinbegleitung von K\u00fcchenchef Andreas Herbst.' } },
+  wellness: { label: 'Wellness', items: ['\u00dcbersicht', 'Mountain Spa', 'Saunalandschaft', 'Massagen', 'Thermalpool'], offer: { img: 'media/image 15.jpg', title: 'Spa-Ritual \u201EAlpine Bliss\u201C', desc: 'Unser signature Treatment mit regionalen Kr\u00e4utern und warmem Zirben\u00f6l.' } },
+  goodlife: { label: 'Good Life', items: ['\u00dcbersicht', {t:'Familienurlaub',href:'familienurlaub.html'}, 'Urlaub zu Zweit', 'Urlaub allein', 'Urlaub f\u00fcr Gourmets', 'Destination Leogang'], offer: { img: 'media/image 23.jpg', title: '\u201EGood Life\u201C Freundinnentage', desc: 'Genussvolle Auszeit mit der besten Freundin, Schwester oder Mama.' } },
+  angebote: { label: 'Angebote', items: ['Aktuelle Angebote', 'Last Minute', 'Fr\u00fchbucher', 'Gutscheine'], offer: defaultOffer },
+};
+
+function toggleNav(open) {
+  navOpen = open;
+  navBurger.classList.toggle('open', navOpen);
+  navBurger.setAttribute('aria-expanded', navOpen);
+  navBurger.setAttribute('aria-label', navOpen ? 'Menü schließen' : 'Menü öffnen');
+  navPanel.classList.toggle('open', navOpen);
+  navBar.classList.toggle('no-shadow', navOpen);
+  navBackdrop.classList.toggle('active', navOpen);
+  navLogo.classList.toggle('hidden', navOpen);
+  document.getElementById('navLogoLink').style.pointerEvents = navOpen ? 'none' : 'auto';
+  navActions.classList.toggle('hidden', navOpen);
+  navLang.classList.toggle('visible', navOpen);
+  if (navOpen) {
+    window._scrollPos = window.scrollY;
+    window.addEventListener('scroll', window._lockScroll = () => window.scrollTo(0, window._scrollPos));
+  } else {
+    window.removeEventListener('scroll', window._lockScroll);
+  }
+  if (!navOpen) {
+    navMenuSlide.classList.remove('show-sub');
+    setOffer(defaultOffer, false);
+  }
+}
+
+const navOfferCard = document.getElementById('navOfferCard');
+function setOffer(offer, animate = true, direction = 'forward') {
+  if (!animate) {
+    navOfferImg.src = offer.img;
+    navOfferTitle.textContent = offer.title;
+    navOfferDesc.textContent = offer.desc;
+    navOfferCard.className = 'nav-offer-card';
+    return;
+  }
+  const outCls = direction === 'forward' ? 'out-fwd' : 'out-back';
+  const inPrepCls = direction === 'forward' ? 'in-fwd-prep' : 'in-back-prep';
+  navOfferCard.className = 'nav-offer-card ' + outCls;
+  setTimeout(() => {
+    navOfferImg.src = offer.img;
+    navOfferTitle.textContent = offer.title;
+    navOfferDesc.textContent = offer.desc;
+    navOfferCard.style.transition = 'none';
+    navOfferCard.className = 'nav-offer-card ' + inPrepCls;
+    requestAnimationFrame(() => {
+      navOfferCard.style.transition = '';
+      requestAnimationFrame(() => {
+        navOfferCard.className = 'nav-offer-card settle';
+      });
+    });
+  }, 150);
+}
+
+navBurger.addEventListener('click', () => toggleNav(!navOpen));
+navBackdrop.addEventListener('click', () => toggleNav(false));
+
+document.querySelectorAll('.nav-menu-item').forEach(item => {
+  item.addEventListener('click', () => {
+    const key = item.dataset.submenu;
+    const data = subMenuData[key];
+    if (data) {
+      navSubLabel.textContent = data.label;
+      navSubItems.innerHTML = data.items.map(i => {
+        if (typeof i === 'object') return `<a href="${i.href}" class="nav-submenu-item" style="text-decoration:none;color:inherit;display:block;">${i.t}</a>`;
+        return `<div class="nav-submenu-item">${i}</div>`;
+      }).join('');
+      navMenuSlide.classList.add('show-sub');
+      if (data.offer) setOffer(data.offer);
+    }
+  });
+});
+
+navSubBack.addEventListener('click', () => {
+  navMenuSlide.classList.remove('show-sub');
+  setOffer(defaultOffer, true, 'back');
+});
+
+// ============ FADE NAV BEFORE FOOTER ============
+const floatingNav = document.getElementById('floatingNav');
+floatingNav.addEventListener('animationend', () => {
+  floatingNav.style.opacity = '1';
+  floatingNav.style.transform = 'translateX(-50%)';
+  floatingNav.style.animation = 'none';
+});
+
+// GSAP is loaded in <head>, so it's available here
+gsap.registerPlugin(ScrollTrigger);
+const prefooter = document.querySelector('.prefooter');
+const compactFooter = document.querySelector('.footer-compact');
+if (prefooter) {
+  ScrollTrigger.create({
+    trigger: '.prefooter',
+    start: 'top 90%',
+    end: 'top 70%',
+    scrub: true,
+    onUpdate: (self) => {
+      floatingNav.style.opacity = 1 - self.progress;
+      floatingNav.style.pointerEvents = self.progress > 0.5 ? 'none' : 'all';
+    }
+  });
+} else if (compactFooter) {
+  // Short footer — instant hide/show, no fade
+  floatingNav.style.transition = 'opacity .15s ease';
+  ScrollTrigger.create({
+    trigger: '.footer-compact',
+    start: 'top bottom',
+    onToggle: (self) => {
+      floatingNav.style.opacity = self.isActive ? '0' : '1';
+      floatingNav.style.pointerEvents = self.isActive ? 'none' : 'all';
+    }
+  });
+}
+</script> <script>
+    if (location.search.includes('tuner') || location.hash === '#tuner') {
+      var s = document.createElement('script');
+      s.src = 'gsap-tuner.js';
+      document.body.appendChild(s);
+    }
+  </script> </body> </html> <!-- PAGE-SPECIFIC STYLES (index only) -->  <!-- PAGE-SPECIFIC SCRIPTS (index only) --> <script>
+  gsap.registerPlugin(ScrollTrigger);
+  const _r = window.__GSAP_TUNER_REGISTRY;
+
+  registerHeroParallax({ bg: '.hero-bg', trigger: '.hero' }, { movement: 30 });
+
+  // ============ FAQ ============
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.parentElement;
+      const answer = item.querySelector('.faq-answer');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-answer').style.maxHeight = '0';
+        i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+        q.setAttribute('aria-expanded', 'true');
+      }
+    });
+    q.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); q.click(); }
+    });
+  });
+
+  // ============ PARALLAX (depth effect) ============
+  registerParallaxImages('.parallax-img', {
+    'about-block-1': { name: 'Familienzeit', layers: {
+      'img-main': { label: 'Large image', speed: -150 },
+      'img-secondary': { label: 'Small image', speed: -720 },
+    }},
+    'about-block-2': { name: 'Zweisamzeit', layers: {
+      'img-main': { label: 'Large image', speed: -700 },
+      'img-secondary': { label: 'Small image', speed: -220 },
+    }},
+    'about-block-3': { name: 'Genusszeit', layers: {
+      'img-main': { label: 'Large image', speed: -245 },
+      'img-secondary': { label: 'Small image', speed: -860 },
+    }},
+    'about-block-4': { name: 'Wellness', layers: {
+      'img-main': { label: 'Large image', speed: -485 },
+      'img-secondary': { label: 'Small image', speed: -815 },
+    }},
+  }, { trigger: '.about-block' });
+
+  registerRevealAnimations();
+
+  // ============ QUOTE CARDS ============
+  const quotesSection = document.querySelector('.quotes');
+
+  function buildQuoteCard(sel, p, axis) {
+    const el = document.querySelector(sel);
+    gsap.killTweensOf(sel);
+    ScrollTrigger.getAll().filter(st => st.animation && st.animation.targets && st.animation.targets().includes(el)).forEach(st => st.kill());
+    const animProps = { opacity: 1, duration: p.duration, ease: p.ease, delay: p.delay,
+      scrollTrigger: { trigger: quotesSection, start: p.start, once: true }
+    };
+    animProps[axis] = 0;
+    gsap.to(sel, animProps);
+  }
+
+  buildQuoteCard('.quote-card-1', { duration: 0.8, ease: 'power2.out', delay: 0, start: 'top 70%' }, 'y');
+  buildQuoteCard('.quote-card-2', { duration: 1, ease: 'power1.inOut', delay: 0.5, start: 'top 70%' }, 'x');
+  buildQuoteCard('.quote-card-3', { duration: 1, ease: 'power1.inOut', delay: 0.9, start: 'top 70%' }, 'x');
+
+  [
+    { id: 'quote-1', sel: '.quote-card-1', axis: 'y', initOffset: 40, delay: 0, dur: 0.8, ease: 'power2.out', label: 'Quote — Center card' },
+    { id: 'quote-2', sel: '.quote-card-2', axis: 'x', initOffset: -80, delay: 0.5, dur: 1, ease: 'power1.inOut', label: 'Quote — Left card' },
+    { id: 'quote-3', sel: '.quote-card-3', axis: 'x', initOffset: 80, delay: 0.9, dur: 1, ease: 'power1.inOut', label: 'Quote — Right card' },
+  ].forEach(q => {
+    _r.push({
+      id: q.id, label: q.label, selector: q.sel, badge: 'entrance',
+      params: {
+        offset:   { value: q.initOffset, min: -200, max: 200, step: 5, label: 'Slide distance', unit: 'px', section: 'Entrance' },
+        duration: { value: q.dur, min: 0.1, max: 3, step: 0.1, label: 'Duration', unit: 's' },
+        delay:    { value: q.delay, min: 0, max: 2, step: 0.05, label: 'Delay', unit: 's' },
+        ease:     { value: q.ease, type: 'easing', label: 'Feel' },
+      },
+      rebuild(p) {
+        buildQuoteCard(q.sel, { duration: p.duration, ease: p.ease, delay: p.delay, start: 'top 70%' }, q.axis);
+      },
+      replay(p) {
+        gsap.killTweensOf(q.sel);
+        // Kill any existing ScrollTriggers for this element
+        const el = document.querySelector(q.sel);
+        ScrollTrigger.getAll().filter(st => st.animation && st.animation.targets && st.animation.targets().includes(el)).forEach(st => st.kill());
+        // Reset to starting position
+        gsap.set(q.sel, { opacity: 0, [q.axis]: p.offset });
+        // Animate directly (no ScrollTrigger) after a brief pause
+        setTimeout(() => {
+          const animProps = { opacity: 1, duration: p.duration, ease: p.ease, delay: p.delay };
+          animProps[q.axis] = 0;
+          gsap.to(q.sel, animProps);
+        }, 100);
+      }
+    });
+  });
+
+  // ============ DOORTAG MORPH ANIMATION ============
+  const doortagSection = document.getElementById('doortagSection');
+  const doortagWrapper = document.getElementById('doortagWrapper');
+  const doortagImg = document.getElementById('doortagImg');
+  const featuresOverlay = document.getElementById('featuresOverlay');
+
+  function buildDoortag(p) {
+    ScrollTrigger.getAll().filter(st => st.vars.trigger === doortagSection).forEach(st => st.kill());
+    gsap.killTweensOf(doortagImg);
+    gsap.killTweensOf(doortagWrapper);
+    gsap.killTweensOf(featuresOverlay);
+    // Apply CSS-level params
+    doortagSection.style.marginTop = p.offsetY + 'px';
+    doortagWrapper.style.transformOrigin = 'center ' + p.originY + '%';
+    doortagImg.style.opacity = p.initOpacity;
+    featuresOverlay.style.opacity = 0;
+    const tl = gsap.timeline({
+      scrollTrigger: { trigger: doortagSection, start: 'top top', end: 'bottom bottom', scrub: p.scrubSmooth }
+    });
+    tl.fromTo(doortagImg, { opacity: p.initOpacity }, { opacity: p.peakOpacity, duration: p.opacityDur, ease: p.opacityEase }, 0)
+      .fromTo(doortagWrapper, { scale: 0.25 }, { scale: p.finalScale, duration: p.scaleDur, ease: p.scaleEase }, 0)
+      .to(featuresOverlay, { opacity: 1, duration: p.featuresDur, ease: p.featuresEase }, p.featuresStart);
+  }
+  buildDoortag({
+    initOpacity: 0.3, peakOpacity: 1, opacityDur: 0.06, opacityEase: 'none',
+    finalScale: 5.25, scaleDur: 0.15, scaleEase: 'none',
+    originY: 47, scrubSmooth: 1, offsetY: 0,
+    featuresStart: 0.02, featuresDur: 0.05, featuresEase: 'none',
+  });
+
+  _r.push({
+    id: 'doortag', label: 'Doortag Morph', selector: '#doortagWrapper', badge: 'scroll',
+    params: {
+      offsetY:       { value: 0,     min: -300, max: 100, step: 10, label: 'Section offset', unit: 'px', section: 'Position', type: 'stepper' },
+      finalScale:    { value: 5.25,  min: 1,    max: 12,  step: 0.25, label: 'End scale', section: 'Scale' },
+      scaleDur:      { value: 0.15,  min: 0.05, max: 1,   step: 0.01, label: 'Scale duration' },
+      scaleEase:     { value: 'none', type: 'easing', label: 'Scale easing' },
+      originY:       { value: 47,    min: 0,    max: 100, step: 1, label: 'Origin Y', unit: '%', section: 'Transform' },
+      initOpacity:   { value: 0.3,   min: 0,    max: 1,   step: 0.05, label: 'Start opacity', section: 'Opacity' },
+      peakOpacity:   { value: 1,     min: 0.5,  max: 1,   step: 0.05, label: 'Peak opacity' },
+      opacityDur:    { value: 0.06,  min: 0.01, max: 0.5, step: 0.01, label: 'Opacity duration' },
+      opacityEase:   { value: 'none', type: 'easing', label: 'Opacity easing' },
+      featuresStart: { value: 0.02,  min: 0,    max: 0.95,step: 0.01, label: 'Start position', section: 'Features overlay' },
+      featuresDur:   { value: 0.05,  min: 0.01, max: 0.5, step: 0.01, label: 'Fade duration' },
+      featuresEase:  { value: 'none', type: 'easing', label: 'Fade easing' },
+      scrubSmooth:   { value: 1,     min: 0,    max: 3,   step: 0.1, label: 'Scrub smoothing', section: 'Scroll' },
+    },
+    rebuild(p) { buildDoortag(p); }
+  });
+
+  // ============ ILLUMAP ============
+  const illumapSection = document.getElementById('illumap');
+  const illumapBgsEl = document.getElementById('illumapBgs');
+  const illumapBgs = [
+    document.getElementById('illumapBg0'),
+    document.getElementById('illumapBg1'),
+    document.getElementById('illumapBg2'),
+    document.getElementById('illumapBg3'),
+  ];
+
+  // Utility: apply a px offset to the trigger-side of a GSAP position string
+  // e.g. offsetTrigger('top 80%', -100) → 'top-=100px 80%'
+  function offsetTrigger(base, offset) {
+    if (!offset) return base;
+    const parts = base.split(' ');
+    const sign = offset >= 0 ? '+=' : '-=';
+    parts[0] = parts[0] + sign + Math.abs(offset) + 'px';
+    return parts.join(' ');
+  }
+
+  // Stored ScrollTrigger refs for all illumap timing entries
+  const illumapSTs = {};
+  function killIllumapST(id) {
+    if (illumapSTs[id]) { illumapSTs[id].kill(); delete illumapSTs[id]; }
+  }
+
+  // --- Intro: bg0 fade-in as section enters ---
+  function buildIllumapIntro(p) {
+    killIllumapST('intro');
+    illumapSTs['intro'] = ScrollTrigger.create({
+      trigger: illumapSection,
+      start: offsetTrigger('top 80%', p.startOffset),
+      end:   offsetTrigger('top 30%', p.endOffset),
+      scrub: true,
+      onUpdate: (self) => {
+        illumapBgsEl.style.opacity = self.progress;
+        illumapBgs[0].style.opacity = 1;
+      },
+      onLeaveBack: () => { illumapBgsEl.style.opacity = 0; },
+    });
+  }
+  buildIllumapIntro({ startOffset: 0, endOffset: 0 });
+  _r.push({
+    id: 'illumap-intro', label: 'Illumap — Intro reveal', selector: '#illumapBgs', badge: 'scroll',
+    params: {
+      startOffset: { value: 0, min: -800, max: 800, step: 10, label: 'Start offset', unit: 'px', section: 'Timing' },
+      endOffset:   { value: 0, min: -800, max: 800, step: 10, label: 'End offset',   unit: 'px' },
+    },
+    rebuild(p) { buildIllumapIntro(p); }
+  });
+
+  // --- Per-frame BG crossfade (fade-in + fade-out combined per frame) ---
+  const illumapFrames = Array.from(document.querySelectorAll('.illumap-frame'));
+
+  function buildIllumapBg(frame, i, p) {
+    const bgIdx = i + 1;
+    killIllumapST('bg-in-' + i);
+    killIllumapST('bg-out-' + i);
+    illumapSTs['bg-in-' + i] = ScrollTrigger.create({
+      trigger: frame,
+      start: offsetTrigger('top center',    p.fadeInStart),
+      end:   offsetTrigger('center center', p.fadeInEnd),
+      scrub: true,
+      onUpdate: (self) => { illumapBgs[bgIdx].style.opacity = self.progress; }
+    });
+    illumapSTs['bg-out-' + i] = ScrollTrigger.create({
+      trigger: frame,
+      start: offsetTrigger('center center', p.fadeOutStart),
+      end:   offsetTrigger('bottom center', p.fadeOutEnd),
+      scrub: true,
+      onUpdate: (self) => {
+        if (i < 2) { illumapBgs[bgIdx].style.opacity = 1 - self.progress; }
+      }
+    });
+  }
+
+  // Default textX (left) positions per frame to match original layout
+  const illumapTextXDefaults = [814, 296, 762];
+
+  function applyIllumapTextX(frame, textX) {
+    const textEl = frame.querySelector('.text-content');
+    if (textEl) textEl.style.left = textX + 'px';
+  }
+
+  [0, 1, 2].forEach(i => {
+    const defaults = { fadeInStart: i === 0 ? -580 : 0, fadeInEnd: 0, fadeOutStart: 0, fadeOutEnd: 0 };
+    buildIllumapBg(illumapFrames[i], i, defaults);
+    applyIllumapTextX(illumapFrames[i], illumapTextXDefaults[i]);
+    _r.push({
+      id: 'illumap-bg-' + (i + 1),
+      label: 'Illumap — Frame ' + (i + 1) + ' BG',
+      selector: '#illumapBg' + (i + 1),
+      badge: 'scroll',
+      params: {
+        textX:        { value: illumapTextXDefaults[i], min: -300, max: 1400, step: 1,  label: 'Text left',      unit: 'px', section: 'Text position' },
+        fadeInStart:  { value: i === 0 ? -580 : 0, min: -800, max: 800,  step: 10, label: 'Fade-in start',  unit: 'px', section: 'Timing' },
+        fadeInEnd:    { value: 0, min: -800, max: 800,  step: 10, label: 'Fade-in end',    unit: 'px' },
+        fadeOutStart: { value: 0, min: -800, max: 800,  step: 10, label: 'Fade-out start', unit: 'px' },
+        fadeOutEnd:   { value: 0, min: -800, max: 800,  step: 10, label: 'Fade-out end',   unit: 'px' },
+      },
+      rebuild(p) {
+        buildIllumapBg(illumapFrames[i], i, p);
+        applyIllumapTextX(illumapFrames[i], p.textX);
+      }
+    });
+  });
+
+  // --- Illumap images: enter from side, drift slowly, exit continuing same direction ---
+  const illumapImgDefs = [
+    { id: 'illumap-img-1', label: 'Illumap — Image 1', elId: 'illumapImg1', dir: 'left',  cssPos:  60, from: -80, drift:  50, w: 362, h: 452 },
+    { id: 'illumap-img-2', label: 'Illumap — Image 2', elId: 'illumapImg2', dir: 'right', cssPos:  56, from:  80, drift: -50, w: 431, h: 540 },
+    { id: 'illumap-img-3', label: 'Illumap — Image 3', elId: 'illumapImg3', dir: 'left',  cssPos: -125, from: -80, drift:  50, w: 500, h: 380 },
+  ];
+  const illumapTls = {};
+
+  function buildIllumapImg(frame, def, p) {
+    const el = document.getElementById(def.elId);
+    gsap.killTweensOf(el);
+    if (illumapTls[def.id]) {
+      illumapTls[def.id].scrollTrigger && illumapTls[def.id].scrollTrigger.kill();
+      illumapTls[def.id].kill();
+    }
+    // Apply CSS position + image size
+    el.style[def.dir] = p.cssPos + 'px';
+    el.style[def.dir === 'left' ? 'right' : 'left'] = 'auto';
+    const imgEl = el.querySelector('img');
+    imgEl.style.width = p.w + 'px';
+    imgEl.style.height = p.h + 'px';
+    // Reset and build timeline
+    gsap.set(el, { x: p.from, opacity: 0 });
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: frame,
+        start: offsetTrigger('top 40%',    p.tStart || 0),
+        end:   offsetTrigger('bottom 70%', p.tEnd   || 0),
+        scrub: true,
+      }
+    });
+    tl
+      .to(el, { x: 0, opacity: 1, duration: 0.2, ease: 'power1.out' }, 0)
+      .to(el, { x: p.drift, duration: 0.52, ease: 'none' }, 0.2)
+      .to(el, { x: p.drift + (p.drift > 0 ? 30 : -30), opacity: 0, duration: 0.28, ease: 'power1.in' }, 0.72);
+    illumapTls[def.id] = tl;
+  }
+
+  illumapImgDefs.forEach((def, i) => {
+    const frame = illumapFrames[i];
+    buildIllumapImg(frame, def, { cssPos: def.cssPos, from: def.from, drift: def.drift, w: def.w, h: def.h, tStart: 0, tEnd: 0 });
+    _r.push({
+      id: def.id, label: def.label, selector: '#' + def.elId, badge: 'scroll',
+      params: {
+        cssPos:  { value: def.cssPos, min: -200, max: 1200, step: 1,  label: def.dir === 'left' ? 'Left' : 'Right', unit: 'px', section: 'Position' },
+        w:       { value: def.w,      min: 50,   max: 900,  step: 1,  label: 'Width',        unit: 'px', section: 'Size' },
+        h:       { value: def.h,      min: 50,   max: 900,  step: 1,  label: 'Height',       unit: 'px' },
+        from:    { value: def.from,   min: -400, max: 400,  step: 5,  label: 'Slide from',   unit: 'px', section: 'Animation' },
+        drift:   { value: def.drift,  min: -400, max: 400,  step: 5,  label: 'Drift',        unit: 'px' },
+        tStart:  { value: 0,          min: -800, max: 800,  step: 10, label: 'Trigger start', unit: 'px', section: 'Timing' },
+        tEnd:    { value: 0,          min: -800, max: 800,  step: 10, label: 'Trigger end',  unit: 'px' },
+      },
+      rebuild(p) { buildIllumapImg(frame, def, p); }
+    });
+  });
+
+  // --- Outro: full bg fade-out over spacer ---
+  const illumapSpacer = document.querySelector('.illumap-fadeout-spacer');
+  function buildIllumapOutro(p) {
+    killIllumapST('outro');
+    illumapSTs['outro'] = ScrollTrigger.create({
+      trigger: illumapSpacer,
+      start: offsetTrigger('top bottom', p.startOffset),
+      end:   offsetTrigger('top 20%',    p.endOffset),
+      scrub: true,
+      onUpdate: (self) => { illumapBgsEl.style.opacity = 1 - self.progress; }
+    });
+  }
+  buildIllumapOutro({ startOffset: 0, endOffset: 0 });
+  _r.push({
+    id: 'illumap-outro', label: 'Illumap — Outro fade', selector: '.illumap-fadeout-spacer', badge: 'scroll',
+    params: {
+      startOffset: { value: 0, min: -800, max: 800, step: 10, label: 'Start offset', unit: 'px', section: 'Timing' },
+      endOffset:   { value: 0, min: -800, max: 800, step: 10, label: 'End offset',   unit: 'px' },
+    },
+    rebuild(p) { buildIllumapOutro(p); }
+  });
+</script>
